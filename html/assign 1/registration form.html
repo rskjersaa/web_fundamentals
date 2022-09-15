@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<html>
+    
+<form action="/process" method="post"></form>
+    <head><title>REGISTRATION FORM></title></head>
+    <body>
+        <h1>Registration Form</h1>
+
+        <div>
+            <label>First Name:*</label>
+                <input type = "text" name = "First Name" placeholder = "First Name:" id="first name" required>
+        </div>
+        <div>
+            <label>Last Name:*</label>
+                <input type = "text" name = "Last Name" placeholder = "Last Name:" required>
+        </div>
+        <div>
+            <label>Email Address:*</label>
+                <input type = "email" name = "Email Address:" placeholder = "Email:" required>
+        </div>
+        <div>
+            <label>Password:*</label>
+                <input type = "password" name = "Password:" placeholder = "Password:" required/>
+        </div>
+        <div>
+            <label>Confirm Password:*</label>
+                <input type = "password" name = "Confirm Password" placeholder = "Confirm Password:" required>
+        </div> 
+        <div>
+                <label>Birthdate:</label>
+                <input type = "date" name = "Birthday:">
+        </div>
+        <div>
+            <label>Gender Identity:</label>
+                <input type = "radio" name = "Gender Identity:" value = "Male" id="Male">
+                <label for = "Male">Male</label>
+                <input type = "radio" name = "Gender Identity:" value = "Female" id="Female">
+                <label for = "Female">Female</label>
+                <input type = "radio" name = "Gender Identity:" value = "Non Binary" id="Non Binary">
+                <label for = "Non Binary">Non Binary</label>
+                <input type = "radio" name = "Gender Identity:" value = "I prefer not to answer" id="I prefer not to answer">
+                <label for = "I prefer not to answer">I prefer not to answer</label>
+        </div>
+        <div>
+            <label>A short description about myself:</label>
+                <input type = "comment" name = "comment box" placeholder ="type here really small">
+        </div>
+        <div>
+            <label>Favorite Language</label>
+                <select name ="language">
+                    <option>JavaScript</option>
+                    <option>Spanish</option>
+                    <option>Love</option>
+                </select>
+        </div>
+        <div> 
+            <input type = "checkbox" name = "recieve updates" id = "receive updates">
+                <label for = "receive updates">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <div>
+            <input type = "submit" name="Create Account" value = "Create Account" id="Create Account">
+                
+        </div>
+        <div>
+                <p>* Indicates a required field<p>
+        </div>
+    </body>
+</html>

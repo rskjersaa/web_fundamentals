@@ -1,0 +1,139 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+/* these are buttons */  
+  .btn-search, .btn-add, .btn-primary {
+    display:block;
+}
+
+.btn-search{
+    color: teal;
+    border-radius: 40px;
+    height:30px;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: (4px solid teal)
+    
+}
+.btn-add{
+border-radius: 50px;
+background-color: rgb(60, 198, 198);
+color: white;
+margin-bottom: 20px;
+margin-left: 20px;
+height: 35px;
+width: 35px;
+font-size: larger;
+border: none;
+}
+.btn-primary{
+
+    margin-left: 20px;
+    width: 200px;
+    height:35px;
+    background-color: blue;
+    color: white;
+    box-shadow: 50px;
+}
+/* this is flexible columns */
+.row {
+    height: 200px;
+    width: 900px;
+    background-color: green;
+    margin:0;
+    display: flex;
+    align-items: center;
+
+}
+.col {
+    background-color: pink;
+    padding: 20px;
+    margin: 20px;
+    font-size: 1.2rem;
+    flex: 1
+
+
+}
+.col-1 {
+    flex: 1;
+    background-color: pink;
+    padding: 20px;
+    margin: 20px;
+
+}
+.col-2 {
+    background-color: pink;
+    padding: 20px;
+    margin:20px;
+    flex: 2;
+}
+.col-3 {
+    background-color: pink;
+    padding:20px;
+    margin: 20px;
+    flex: 3;
+
+}
+/* this is nav bar */
+
+.nav {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(62, 60, 60);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+h1 {
+    color: white;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.nav ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    list-style-type: none;
+
+}
+
+.nav-links {
+    color: white;
+    
+
+}
+
+a {
+
+    color: lightgrey;
+    align-content: center;
+    text-decoration: none;
+
+}
+
+.btn {
+    font-size: 18px;
+    background-color: aqua;
+    color: white;
+    height: 30px;
+    width: 100px;
+    box-shadow: 5px 5px black;
+    border: none;
+}

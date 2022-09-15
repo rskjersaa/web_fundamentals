@@ -1,0 +1,104 @@
+* {
+    margin:0;
+    padding:0;
+}
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/* this is my nav bar */
+.nav {
+    width: 100%
+    height: 100%;
+    background-color: gray;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 70px;
+    margin-left: 70px;
+
+}
+
+.button-nav {
+    margin-left: 20px;
+    width: 150px;
+    height:35px;
+    background-color: blue;
+    color: white;
+    box-shadow: 50px;
+
+}
+
+input {
+    height: 30px;
+    width: 250px;
+}
+/* this is my column 1 definition cards */
+
+.part-of-speech1 {
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.definition {
+
+    display: flex;
+    text-align: center;
+    width:550px;
+    height: 150px;
+    border: 2px solid black;
+    padding-top: 50px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 45px;
+}
+.definition-text {
+
+    margin-top: 45px;
+}
+/* these are my buttons */
+button {
+
+    margin-left: 20px;
+    width: 150px;
+    height:35px;
+    background-color: #FFD966;
+    color: rgb(4, 4, 4);
+    box-shadow: 50px;
+}
+.def-button {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 150px;
+    height:35px;
+    background-color:  #92C47C;
+    color: #000000;
+    box-shadow: 50px;
+}
+/* this is the right side */
+.col-1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+.rightbox {
+
+    border:2px solid black;
+    height:150px;
+    width: 200px;
+    margin-top:35px;
+    
+}
+h2 {
+    margin-top:30px;
+    margin-left: 5px;
+}
+footer {
+
+    background-color: gray;
+}
