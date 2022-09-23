@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+        <nav>
+            <h1>Dojo Weather</h1>
+            <div class ="nav-links">
+                <ul>
+                    <li onclick="loading()"><a href="#">Burbank</a></li>
+                    <li onclick="loading()"><a href="#">Chicago</a></li>
+                    <li onclick="loading()"><a href="#">Dallas</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div class="city1">
+                <h2 class="city">San Jose</h2>
+                    <div class="dropdown">
+                    <label>show temperature in</label>
+                    <select name ="temp">
+                        <option>C°</option>
+                        <option>F°</option>
+                    </select>
+                    </div>
+                </div>
+        <div class =bottom>
+                <div class="weather">
+                    <h2>Today</h2>
+                    <img src="assetsdw/some_rain.png" alt="some rain">
+                    <p>some rain</p>
+                    <p class="temperatures">
+                        <span class="high" id="temp1">24°</span>
+                        <span class="low" id="temp2">18°</span>
+                    </p>
+                </div>
+                <div class="weather">
+                    <h2>Today</h2>
+                    <img src="assetsdw/some_sun.png" alt="some sun">
+                    <p>some sun</p>
+                    <p class="temperatures">
+                        <span class="high" id="temp1">27°</span>
+                        <span class="low" id="temp2">19°</span>
+                    </p>
+                </div>
+                <div class="weather">
+                    <h2>Today</h2>
+                    <img src="assetsdw/some_clouds.png" alt="some clouds">
+                    <p>some clouds</p>
+                    <p class="temperatures">
+                        <span class="high" id="temp1">21°</span>
+                        <span class="low" id="temp2">16°</span>
+                    </p>
+                </div>
+                <div class="weather">
+                    <h2>Today</h2>
+                    <img src="assetsdw/some_sun.png" alt="some sun">
+                    <p>some sun</p>
+                    <p class="temperatures">
+                        <span class="high" id="temp1">26°</span>
+                        <span class="low" id="temp2">21°</span>
+                    </p>
+                </div>
+            </div>
+        </main>
+        <div class="footer">
+            <div class="cookie-policy">
+                <img src="assetsdw/cookie.png" alt="cookie">
+                <h2>Stop!Cookie time.</h2>
+                <p>We use cookie (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic<a href="#" Read more></a></p>
+                <button class="btn" onclick="accept()">Accept</button>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
